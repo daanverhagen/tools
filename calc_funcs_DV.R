@@ -50,6 +50,7 @@ site_stats_loci_plot <- function(meth_data, binsize = 10, sample) {
 
 
 # Isolate and calculate a region of the rDNA locus
+
 rDNA_meth_calc <-  function(barcode, ref_seq, rDNA_start, rDNA_end, meth_percentage = 0.7) {
   # to calculate methylation of a certain region you need meth_data_chr
   meth_data_chr <-  load_meth_data(barcode_subset = paste0(barcode), ref_seq_subset = paste0(ref_seq))
