@@ -1,0 +1,15 @@
+body .main-container {
+
+max-width: 1000px !important;
+margin: auto;
+margin-left: 440px;}
+
+
+#TOC {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 400px;
+  height: 100%;
+  overflow: auto;
+}
